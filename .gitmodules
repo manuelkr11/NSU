@@ -1,0 +1,3 @@
+[submodule "NSU/vendor/spdlog"]
+	path = NSU/vendor/spdlog
+	url = https://github.com/gabime/spdlog

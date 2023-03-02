@@ -27,9 +27,15 @@
     <ClInclude Include="src\NSU\EntryPoint.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\NSU\Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\NSU\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NSU\Log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

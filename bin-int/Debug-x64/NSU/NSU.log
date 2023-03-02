@@ -1,3 +1,9 @@
-﻿  Application.cpp
+﻿  Log.cpp
+C:\dev\NSU\NSU\src\NSU\Log.h(18,48): warning C4251: 'NSU::Log::s_CoreLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'NSU::Log'
+C:\dev\NSU\NSU\vendor\spdlog\include\spdlog\details\registry.h(34,31): message : see declaration of 'std::shared_ptr<spdlog::logger>'
+C:\dev\NSU\NSU\src\NSU\Log.h(19,48): warning C4251: 'NSU::Log::s_ClientLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'NSU::Log'
+C:\dev\NSU\NSU\vendor\spdlog\include\spdlog\details\registry.h(34,31): message : see declaration of 'std::shared_ptr<spdlog::logger>'
+  Application.cpp
+  Generating Code...
      Creating library C:\dev\NSU\bin\Debug-x64\NSU\NSU.lib and object C:\dev\NSU\bin\Debug-x64\NSU\NSU.exp
   NSU.vcxproj -> C:\dev\NSU\bin\Debug-x64\NSU\NSU.dll
