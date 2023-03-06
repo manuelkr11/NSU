@@ -4,6 +4,9 @@
     <Filter Include="NSU">
       <UniqueIdentifier>{BB09880B-2713-887C-B08E-9E7C1C97937C}</UniqueIdentifier>
     </Filter>
+    <Filter Include="NSU\Events">
+      <UniqueIdentifier>{3F159072-2BCD-D1BF-94D4-AA1B80AB6CB0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\NSU.h" />
@@ -15,6 +18,18 @@
     </ClInclude>
     <ClInclude Include="src\NSU\EntryPoint.h">
       <Filter>NSU</Filter>
+    </ClInclude>
+    <ClInclude Include="src\NSU\Events\ApplicationEvent.h">
+      <Filter>NSU\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\NSU\Events\Event.h">
+      <Filter>NSU\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\NSU\Events\KeyEvent.h">
+      <Filter>NSU\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\NSU\Events\MouseEvents.h">
+      <Filter>NSU\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\NSU\Log.h">
       <Filter>NSU</Filter>
