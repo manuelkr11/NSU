@@ -45,3 +45,20 @@ A package manager is a software tool or system that automates the process of ins
 - Conan
 - Vcpkg
 - Cget
+
+
+------------------------------------------------------------
+Exercise 3
+------------------------------------------------------------
+
+What is the difference between a dynamic linked library and a static library?
+Dynamic linked libraries are loaded into memory at runtime. This is why the application does not have to be recompiled when a change/update happens in the DLL. Static libraries on the other hand are linked directly to the application at runtime. This increases the size of the executable of course, as the static library becomes part of it.
+
+Describe a logging system with your own words:
+A logging system is a software tool that records information about the events occurring in a computer application (ore even a computer system). It can also stores the information and therefore is useful for troubleshooting issues and/or monitoring and upgrading system performance.
+
+What is a Design Pattern?
+In software engineering, a design pattern is a general, reusable solution to a commonly occurring problem in software design. It is a proven approach to solving a specific type of problem that can be adapted and reused in different situations. They can be categorized into three groups. Creational patterns are concerned with object creation mechanisms, trying to create objects in a manner suitable to the situation. Structural patterns are concerned with object composition and aim to provide relationships between objects. Behavioral patterns are concerned with communication between objects and how they operate with one another.
+
+Name and describe 2 Design Patterns (except façade or adapter):
+The Singleton pattern is a creational design pattern that ensures that only one instance of a class can be created, and provides a global point of access to that instance. This is achieved by making the class's constructor private and providing a static method that returns a single instance of the class. This is useful when a single instance of a class needs to coordinate actions across the system, such as managing a shared resource or configuration settings. The Observer pattern is a behavioral design pattern that defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically. In this pattern, the subject maintains a list of its dependents (observers) and notifies them automatically of any changes to its state. This is useful when you need to maintain consistency between related objects or when you want to be notified of changes in a system.
