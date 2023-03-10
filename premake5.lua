@@ -18,6 +18,9 @@ project "NSU"
     targetdir ("bin/" .. outputdir .. "/%{prj.name}")
     objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+    pchheader "nsupch.h"
+    pchsource "NSU/src/nsupch.cpp"
+
     files
     {
         "%{prj.name}/src/**.h",

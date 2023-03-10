@@ -1,3 +1,4 @@
+#include "nsupch.h"
 #include "Application.h"
 
 #include "NSU/Events/ApplicationEvent.h"
