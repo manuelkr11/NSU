@@ -39,7 +39,7 @@ namespace NSU {
 		int m_RepeatCount;
 	};
 
-	class NSU_API KeyReleaseEvent : public KeyEvent
+	class NSU_API KeyReleasedEvent : public KeyEvent
 	{
 	public:
 		KeyReleasedEvent(int keycode)

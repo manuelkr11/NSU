@@ -17,7 +17,7 @@ namespace NSU {
 
 		std::string ToString() const override
 		{
-			std__stringstream ss;
+			std::stringstream ss;
 			ss << "MouseMovedEvent: " << m_MouseX << ", " << m_MouseY;
 			return ss.str();
 		}
@@ -32,10 +32,10 @@ namespace NSU {
 	{
 	public:
 		MouseScrolledEvent(float xOffset, float yOffset)
-			: m_XOffset(xOffset), m_YOffset(yOffset) {};
+			: m_XOffset(xOffset), m_YOffset(yOffset) {}
 
-		inline float getXOffset() const { return m_XOffset; }
-		inline float getYOffset() const { return m_YOffset; }
+		inline float GetXOffset() const { return m_XOffset; }
+		inline float GetYOffset() const { return m_YOffset; }
 
 		std::string ToString() const override
 		{

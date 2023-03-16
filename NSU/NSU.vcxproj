@@ -151,7 +151,7 @@
     <ClInclude Include="src\NSU\Events\ApplicationEvent.h" />
     <ClInclude Include="src\NSU\Events\Event.h" />
     <ClInclude Include="src\NSU\Events\KeyEvent.h" />
-    <ClInclude Include="src\NSU\Events\MouseEvents.h" />
+    <ClInclude Include="src\NSU\Events\MouseEvent.h" />
     <ClInclude Include="src\NSU\Log.h" />
     <ClInclude Include="src\NSU\Window.h" />
     <ClInclude Include="src\Platform\Windows\WindowsWindow.h" />

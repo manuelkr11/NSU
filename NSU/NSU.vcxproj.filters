@@ -34,7 +34,7 @@
     <ClInclude Include="src\NSU\Events\KeyEvent.h">
       <Filter>NSU\Events</Filter>
     </ClInclude>
-    <ClInclude Include="src\NSU\Events\MouseEvents.h">
+    <ClInclude Include="src\NSU\Events\MouseEvent.h">
       <Filter>NSU\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\NSU\Log.h">

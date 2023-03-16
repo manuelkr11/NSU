@@ -13,7 +13,7 @@ namespace NSU {
 		WindowClose, WindowResize, WindowFocus, WindowLostFocus, WindowMoved,
 		AppTick, AppUpdate, AppRender,
 		KeyPressed, KeyReleased,
-		MouseButtomPressed, MouseButtonReleased, MouseMoved, MouseScrolled
+		MouseButtonPressed, MouseButtonReleased, MouseMoved, MouseScrolled
 	};
 
 	enum EventCategory
