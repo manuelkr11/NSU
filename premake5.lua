@@ -1,5 +1,6 @@
 workspace "NSU"
     architecture "x64"
+    startproject "Sandbox"
 
     configurations
     {
@@ -20,6 +21,7 @@ project "NSU"
     location "NSU"
     kind "SharedLib"
     language "C++"
+    staticruntime "off" -- change
 
     targetdir ("bin/" .. outputdir .. "/%{prj.name}")
     objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
@@ -48,7 +50,8 @@ project "NSU"
 
     filter "system:windows"
         cppdialect "C++17"
-        staticruntime "On"
+        -- staticruntime "On"
+        runtime "Debug"
         systemversion "latest"
 
         defines
@@ -65,19 +68,23 @@ project "NSU"
     filter "configurations:Debug"
         defines "HZ_DEBUG"
         symbols "On"
+        runtime "Debug" --change
 
     filter "configurations:Release"
         defines "HZ_RELEASE"
         symbols "On"
+        runtime "Release" --change
 
     filter "configurations:Dist"
         defines "HZ_DIST"
         symbols "On"
+        runtime "Release" --change
 
 project "Sandbox"
     location "Sandbox"
     kind "ConsoleApp"
     language "C++"
+    staticruntime "off" --change
 
     targetdir ("bin/" .. outputdir .. "/%{prj.name}")
     objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
@@ -101,7 +108,8 @@ project "Sandbox"
 
     filter "system:windows"
         cppdialect "C++17"
-        staticruntime "On"
+        --staticruntime "On"
+        runtime "Debug"--change
         systemversion "latest"
 
         defines
@@ -112,11 +120,14 @@ project "Sandbox"
     filter "configurations:Debug"
         defines "HZ_DEBUG"
         symbols "On"
+        runtime "Debug" --change
 
     filter "configurations:Release"
         defines "HZ_RELEASE"
         symbols "On"
+        runtime "Release" --change
 
     filter "configurations:Dist"
         defines "HZ_DIST"
         symbols "On"
+        runtime "Release"--change
